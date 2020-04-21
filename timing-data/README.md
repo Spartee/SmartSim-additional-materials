@@ -8,7 +8,7 @@ The following columns represent the scaling dimensions
 - cluster: Number of nodes used for the database cluster
 - doubles: How many double precision numbers were sent in a single message
 - ppn: Processes per node used for the scaling program
-- nodes: Number of odes to deploy the scaling program
+- nodes: Number of nodes to deploy the scaling program
 - dpn: Database instances per node
 
 ## Timings
@@ -18,7 +18,7 @@ The following suffixes represent the reduction operation performed on the rank-b
 - max: Maximum time elapsed in function
 - std: Standard deviation of elapsed time
 - mean: Mean elapsed time
--
+
 A number of functions within the SmartSim stack were timed. Some these are nested inside of others; in the following list functions are listed from the client-facing side down into SmartSim
 - put_array<double>: Client-level call to send an array to the database
   - add_array_values: Adds elements from an array to a protobuf array
