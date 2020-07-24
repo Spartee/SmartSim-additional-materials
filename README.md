@@ -1,4 +1,4 @@
-# SmartSim-SC-2020
+# SmartSim
  - In this repository are the additional materials for the paper submitted to Supercomputing 2020 about SmartSim.
  
 ![alt text](figures/SmartSim_Architecture.png "SmartSim Architecture")
